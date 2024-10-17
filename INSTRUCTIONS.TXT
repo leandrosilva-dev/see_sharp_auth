@@ -1,9 +1,0 @@
-Install SQLite
-- dotnet add package Microsoft.EntityFrameworkCore.Sqlite
-- dotnet add package Microsoft.EntityFrameworkCore.Tools
-
-Create initial migration
-- dotnet-ef migrations add InitialCreate
-
-Apply migration
-- dotnet-ef database update
